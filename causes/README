@@ -1,0 +1,13 @@
+README
+
+causes.py
+Brian Boates
+
+causes.py scans the file word.list (a list of words) 
+and determines the social network of the word "causes" 
+as all of its friends, its friend's friends, its friend's 
+friend's friends, and so on. 
+
+Two words are friends if they have a Levenshtein distance 
+of 1. This means that the insertion, removal, or substitution 
+of a letter in word1 lead to word2.
